@@ -1,0 +1,26 @@
+{
+  "name": "peertube-plugin-featured-page",
+  "version": "0.0.1",
+  "description": "Adds a page with featured channels and featured videos",
+  "engine": {
+    "peertube": ">=2.2.0"
+  },
+  "keywords": [
+    "peertube",
+    "plugin"
+  ],
+  "homepage": "https://github.com/McFlat/peertube-plugin-featured-page",
+  "author": "McFlat",
+  "bugs": "https://github.com/McFlat/peertube-plugin-featured-page/issues",
+  "library": "./main.js",
+  "staticDirs": {},
+  "css": [],
+  "clientScripts": [
+    {
+      "script": "client/common-client-plugin.js",
+      "scopes": [ "common" ]
+    }
+  ],
+  "translations": {},
+  "license": "MIT"
+}
